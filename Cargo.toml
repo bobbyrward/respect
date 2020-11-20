@@ -1,0 +1,13 @@
+[package]
+name = "respect"
+version = "0.0.1"
+authors = ["Bobby R. Ward <bobbyrward@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "RESP serialization"
+homepage = "https://github.com/bobbyrward/respect"
+documentation = "https://docs.rs/respect"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
