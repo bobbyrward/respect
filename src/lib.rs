@@ -1,7 +1,7 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+mod error;
+mod serialize;
+mod value;
+
+pub use crate::error::RespectError;
+pub(crate) use crate::error::Result;
+pub use crate::value::Value;
